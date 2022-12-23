@@ -1,0 +1,92 @@
+body,html{
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(85, 71, 71) !important;
+}
+
+/* HERO IMAGE */
+.hero-image{
+    background: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)), url(img/arkaplan.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+.dropdown{
+    border-radius: 3px;
+}
+
+.hero-text{
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+.hero-text h1{
+    font-size: 4vw;
+    font-weight: bold;
+}
+.input-group input{
+    padding: 15px;
+    border: none;
+}
+/* container fluid arkaplan */
+.arkaplan{
+    background-color: black;
+}
+.arkaplan .row{
+    width: 75%;
+    margin: auto;
+}
+.text{
+    color: white;
+}
+.text h1{
+    font-weight: bold;
+}
+.accordion{
+    background-color: rgb(34,34,34);
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    font-size: 20px;
+    transition: 0.4s;
+}
+.panel{
+    padding: 0 18px;
+    background-color: rgb(34,34,34);
+    color: white;
+    display: none;
+    overflow: hidden;
+}
+.accordion::after{
+    content: "\002b";
+    float: right;
+
+}
+.active::after{
+    content: "\02E3";
+}
+/* footer */
+footer p, .nav-link, .p-footer{
+    color:grey;
+    text-align: left;
+}
+footer .nav-link:hover{
+    color:grey;
+    text-decoration: underline;
+}
+@media screen and (max-width:992px) {
+    .text{
+        text-align: center;
+    }
+}

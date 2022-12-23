@@ -1,0 +1,61 @@
+body,html{
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(34,34,34);
+}
+
+/* HERO IMAGE */
+.hero-image{
+    background: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)), url(img/arkaplan.jpg);
+    background-color: black;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.dropdown{
+    border-radius: 3px;
+}
+
+.hero-text{
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+.hero-text h1{
+    font-size: 4vw;
+    font-weight: bold;
+}
+.hero-text .btn{
+    background-color: grey;
+    border: none;
+    width: 150px;
+    margin: 10px;
+    margin-left: 200px;
+}
+.input-group .btn-1{
+    width: 100px;
+    height: 60px;
+}
+.sira-1 img{
+    width: 100%;
+}
+.sira-2 img{
+    width: 100%;
+}
+footer{
+    background-color: black;
+}
+footer p, .nav-link, .p-footer{
+    color:grey;
+    text-align: left;
+}
+footer .nav-link:hover{
+    color:grey;
+    text-decoration: underline;
+}
